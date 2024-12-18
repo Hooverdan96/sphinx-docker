@@ -13,4 +13,4 @@ RUN apt-get update \
  && rm -rf /var/lib/apt/lists/*
 
 ADD requirements.txt /docs
-RUN pip3 install -r requirements.txt
+RUN python3 pip3 install -r requirements.txt
